@@ -1,7 +1,3 @@
 {
-  "projects": ["MyUser/project-a", "MyUser/project-b", "AnotherUser/project-c"],
-  "threshold": {
-    "pullRequests": 10,
-    "issues": 5
-  }
+  "projects": ["fu4303/project-a", "fu4303/project-b", "fu4303/project-c"],
 }
