@@ -1,0 +1,56 @@
+{
+  "name": "oss-project-dashboard",
+  "version": "1.0.0",
+  "description": "A Dashboard to have a quick overview of Open Sources projects in your Github account ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmaSuriano/oss-project-dashboard.git"
+  },
+  "keywords": [
+    "github",
+    "open source",
+    "dashboard"
+  ],
+  "author": "Ema Suriano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmaSuriano/oss-project-dashboard/issues"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "CI=true react-scripts build",
+    "check-types": "tsc -p ."
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead"
+  ],
+  "homepage": "https://oss-dashboard.netlify.com/",
+  "dependencies": {
+    "@octokit/core": "^3.4.0",
+    "@octokit/graphql": "^4.6.4",
+    "@octokit/types": "^6.18.1",
+    "@primer/components": "^28.2.5",
+    "@primer/octicons": "^14.2.2",
+    "@primer/octicons-react": "^14.2.2",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.18.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.8",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.11",
+    "typescript": "^4.3.5"
+  }
+}
