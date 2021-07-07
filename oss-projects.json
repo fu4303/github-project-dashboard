@@ -1,0 +1,7 @@
+{
+  "projects": ["MyUser/project-a", "MyUser/project-b", "AnotherUser/project-c"],
+  "threshold": {
+    "pullRequests": 10,
+    "issues": 5
+  }
+}
