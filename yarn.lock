@@ -1587,20 +1587,22 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@primer/components@^28.2.5":
-  version "28.2.5"
-  resolved "https://registry.yarnpkg.com/@primer/components/-/components-28.2.5.tgz#78d9228e556a735d11fc6d12192042609874cc25"
-  integrity sha512-2X9v21FK4dcRbedllxbNGAZDibwk040mCphEYp8JTaHFbndky7Y0O40FkGMs2f7pmyXxi2FdNFferT+FQza2Ag==
+"@primer/components@^30.2.1":
+  version "30.2.1"
+  resolved "https://registry.yarnpkg.com/@primer/components/-/components-30.2.1.tgz#50522c68091459a20f8e9d2f2ebd9e2700291fec"
+  integrity sha512-/siBEoYtIeSOoalEExy7YKuimQ1ocjo02+EhA8C7nm+BVbAG26dpBEc1g4HmmQ9Z61S+t+Nc23qezITWGyYrQw==
   dependencies:
     "@primer/octicons-react" "^13.0.0"
-    "@primer/primitives" "4.4.0"
+    "@primer/primitives" "4.8.1"
+    "@radix-ui/react-polymorphic" "0.0.14"
+    "@react-aria/ssr" "3.1.0"
     "@styled-system/css" "5.1.5"
     "@styled-system/props" "5.1.5"
     "@styled-system/theme-get" "5.1.2"
     "@types/history" "4.7.8"
-    "@types/styled-components" "5.1.7"
-    "@types/styled-system" "5.1.11"
-    "@types/styled-system__css" "5.0.15"
+    "@types/styled-components" "5.1.11"
+    "@types/styled-system" "5.1.12"
+    "@types/styled-system__css" "5.0.16"
     "@types/styled-system__theme-get" "5.0.1"
     classnames "2.3.1"
     deepmerge "4.2.2"
@@ -1624,10 +1626,22 @@
   dependencies:
     object-assign "^4.1.1"
 
-"@primer/primitives@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-4.4.0.tgz#6aebda0c187fba42d72c1a655fc29d050c28fdce"
-  integrity sha512-WuWCAanRReK2BlQ8ToBNvnzbPQHmo4Lrs03w8A3L136qomyeZ9bxSa+kkk/B/3oJGUC7zJxAZPMHdx2DIHPgqw==
+"@primer/primitives@4.8.1":
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-4.8.1.tgz#05f76e47f67018514fd54b35ca615b9d27ef2a46"
+  integrity sha512-mgr6+EKpn4DixuhLt3drk7QmNQO8M7RYONWovg1nkV7p56jklhDLfZmp1luLUee37eQGAxx3ToStL6gqINFjnQ==
+
+"@radix-ui/react-polymorphic@0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-polymorphic/-/react-polymorphic-0.0.14.tgz#fc6cefee6686db8c5a7ff14c8c1b9b5abdee325b"
+  integrity sha512-9nsMZEDU3LeIUeHJrpkkhZVxu/9Fc7P2g2I3WR+uA9mTbNC3hGaabi0dV6wg0CfHb+m4nSs1pejbE/5no3MJTA==
+
+"@react-aria/ssr@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@react-aria/ssr/-/ssr-3.1.0.tgz#b7163e6224725c30121932a8d1422ef91d1fab22"
+  integrity sha512-RxqQKmE8sO7TGdrcSlHTcVzMP450hqowtBSd2bBS9oPlcokVkaGq28c3Rwa8ty5ctw4EBCjXqjP7xdcKMGDzug==
+  dependencies:
+    "@babel/runtime" "^7.6.2"
 
 "@rollup/plugin-node-resolve@^7.1.1":
   version "7.1.3"
@@ -2094,16 +2108,7 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.0.tgz#7036640b4e21cc2f259ae826ce843d277dad8cff"
   integrity sha512-RJJrrySY7A8havqpGObOB4W92QXKJo63/jFLLgpvOtsGUqbQZ9Sbgl35KMm1DjC6j7AvmmU2bIno+3IyEaemaw==
 
-"@types/styled-components@5.1.7":
-  version "5.1.7"
-  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.7.tgz#3cd10b088c1cb1acde2e4b166b3e8275a3083710"
-  integrity sha512-BJzPhFygYspyefAGFZTZ/8lCEY4Tk+Iqktvnko3xmJf9LrLqs3+grxPeU3O0zLl6yjbYBopD0/VikbHgXDbJtA==
-  dependencies:
-    "@types/hoist-non-react-statics" "*"
-    "@types/react" "*"
-    csstype "^3.0.2"
-
-"@types/styled-components@^5.1.11":
+"@types/styled-components@5.1.11", "@types/styled-components@^5.1.11":
   version "5.1.11"
   resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.11.tgz#a3a1bc0f2cdad7318d8ce219ee507e6b353503b5"
   integrity sha512-u8g3bSw9KUiZY+S++gh+LlURGraqBe3MC5I5dygrNjGDHWWQfsmZZRTJ9K9oHU2CqWtxChWmJkDI/gp+TZPQMw==
@@ -2112,17 +2117,17 @@
     "@types/react" "*"
     csstype "^3.0.2"
 
-"@types/styled-system@5.1.11":
-  version "5.1.11"
-  resolved "https://registry.yarnpkg.com/@types/styled-system/-/styled-system-5.1.11.tgz#158849f3b14cdf8bf27a10f0cf87a2c3a89eb680"
-  integrity sha512-R+JxEZYa5T0HD2urViR/mdklVaGhwbNOtDoWWGQ1+z1CGs/gF1UAKCaS//YwsUwterEKpyaKxgaXyFNKF04GCA==
+"@types/styled-system@5.1.12":
+  version "5.1.12"
+  resolved "https://registry.yarnpkg.com/@types/styled-system/-/styled-system-5.1.12.tgz#4f3ca8da3dffe3c5a6cc3b2a97f51b41464c104a"
+  integrity sha512-7x4BYKKfK9QewfsFC2x5r9BK/OrfX+JF/1P21jKPMHruawDw9gvG7bTZgTVk6YkzDO2JUlsk4i8hdiAepAhD0g==
   dependencies:
     csstype "^3.0.2"
 
-"@types/styled-system__css@5.0.15":
-  version "5.0.15"
-  resolved "https://registry.yarnpkg.com/@types/styled-system__css/-/styled-system__css-5.0.15.tgz#f6f896e33393f8b3763f275afaa84261dae77a54"
-  integrity sha512-bbFlY2ATFEaWEMOllEqMktSzq4yGPAiZSrjGUQ124LSStm9QPhKErOuTxXfJi8VuymaQ+g1uC8AbC2o3BpgQyA==
+"@types/styled-system__css@5.0.16":
+  version "5.0.16"
+  resolved "https://registry.yarnpkg.com/@types/styled-system__css/-/styled-system__css-5.0.16.tgz#cae75cef03dfa1020703e842a8b1c14d8f9a8f33"
+  integrity sha512-Cji5miCIpR27m8yzH6y3cLU6106N4GVyPgUhBQ4nL7VxgoeAtRdAriKdGTnRgJzSpT3HyB7h5G//cDWOl0M1jQ==
   dependencies:
     csstype "^3.0.2"
 
